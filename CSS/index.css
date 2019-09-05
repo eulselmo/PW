@@ -1,0 +1,129 @@
+header{
+	background-color: #616262;
+	height: 125px;
+	width: 100%;
+}
+#modificado1{
+	position: absolute;
+	width:10%;
+	left: 7%;
+	top: 3%;
+}
+article{
+	position:absolute;
+	top: 12px;
+	right: 20px;
+	color: white;
+		
+}
+#titulo{
+	color:#0013BF;
+	position: absolute;
+	font-size:250%;
+	top: 0%;
+	right: 45%;
+
+}	
+#titulo{
+	font-family:Segoe Script;
+}
+#usuariologeo{
+	position: absolute;
+	top:1%;
+}
+#Entrar{
+	border: 1px solid black;
+	background-color: #F2F2F2;
+	text-decoration: none;
+    padding: 1px 25px;
+}
+#Entrar:hover{
+	cursor: url("icono.ico"), pointer;
+}
+body{
+	background-color: #212222;
+}
+#section1{
+	position: absolute;
+	right: 1.5%;
+	top: 29%;
+	width:40%;
+}
+#cumpleanios{
+	color: white;
+}
+#sexo{
+	color: white;
+}
+form{
+	position: relative;
+	left:8%;
+}
+#section2{
+	position: relative;
+	float:left;
+	top: 30%;
+}
+#envio:hover{
+	cursor: url("icono.ico"), pointer;
+}
+#Foto{
+	width: 90%;
+	top:1%;
+}
+.demo-2 {
+    position:relative;
+    top:20%;
+    left:4%;
+    width:750px;
+    height:400px;
+    overflow:hidden;
+    margin-right:20px;
+    background-color:#212222;
+}
+.demo-2 h3 {
+	position:relative;
+    top:20px;
+    line-height:30px;
+    right:5%;
+    color:#FF7C00;
+    font-family:MV Boli;
+}
+.effect img {
+    position:absolute;
+    left:0;
+    bottom:0;
+    cursor:pointer;
+    margin:-12px 0;
+    -webkit-transition:bottom .3s ease-in-out;
+    -moz-transition:bottom .3s ease-in-out;
+    -o-transition:bottom .3s ease-in-out;
+    transition:bottom .3s ease-in-out
+}
+.effect img.top:hover {
+    bottom:-96px;
+    padding-top:100px
+}
+h3.zero {
+    margin:0;
+    padding:0
+}
+h3{
+	color:orange;
+	font-size: 150%;
+	text-align:center;
+	font-family:Segoe Script;
+}
+footer{
+	display:block;
+	background-color: #FF7C00;
+	position:absolute;
+	color: black;
+	height: 30%;
+	width: 100%;
+	top:82%;
+}
+a {
+		text-decoration: none;
+		color: black;
+	}

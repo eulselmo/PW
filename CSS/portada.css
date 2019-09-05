@@ -1,0 +1,518 @@
+/*ZONA DE CABECERA*/
+header{
+	position: absolute;
+	top:0;
+	background-color: #616262;
+	height: 17%;
+	width: 100%;
+}
+#modificado1{
+	position: absolute;
+	left: 7%;
+	top: 3.2%;
+	width:10%;
+}
+#modificado1:hover{
+	cursor: url("icono.ico"), pointer;
+}
+#titulo{
+	color:#0013BF;
+	position: absolute;
+	font-size:250%;
+	right: 45%;
+	margin-top:1.7%;
+	font-family:Segoe Script;
+}
+#titulo:hover{
+	cursor: url("icono.ico"), pointer;
+}
+#modificado2{
+	position: absolute;
+	border: 1px solid black;
+	top: 17%;
+	border-radius:100%;
+	right:10%;
+	width: 5.3%;
+	height: 71%;
+}
+#modificado2:hover{
+	cursor: url("icono.ico"), pointer;
+}
+#salir{
+	position: absolute;
+	top: 40%;
+	right: 3%;
+	border: 1px solid black;
+	background-color: #F2F2F2;
+    color: black;
+    text-decoration: none;
+    padding: 1px 25px;
+	
+}
+#salir:hover{
+	cursor: url("icono.ico"), pointer;
+}
+
+#opciones a {
+	border: 1px solid black;
+	background-color: #F2F2F2;
+    color: black;
+    padding: 1px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+body{
+	background-color: #212222;
+}
+/*NAVEGADOR DE LA PAGINA*/
+#navegador{
+	position: absolute;
+	top: 17%;
+	width:100%;
+	border: 2px solid black;
+}
+#opciones{
+	display: inline;
+	margin-left:35%;
+}
+#cursor:hover{
+	cursor: url("icono.ico"), pointer;
+}
+/*ZONA DE LOS USUARIOS DEL SISTEMA*/
+#usuarios{
+	position:absolute;
+	display:block;
+	top:21%;
+	height:28%;
+	width:87%;
+	border: 1px solid black;
+	background-color: #2A22BF;
+	overflow-y: scroll;
+}
+#user{
+	position:relative;
+	display: block;
+	width:19%;
+	border: 1px solid black;
+	float:left;
+	margin-left: 0.05%;
+	margin-right: 0.05%;
+	margin-top: 0.1%;
+	margin-bottom: 0.1%;
+	background-color: #0B6DDC;
+}
+#usuario{
+	position:absolute;
+	border: 1px solid black;
+	top:15%;
+	left: 42%;
+	border-radius:100%;
+	width: 18%;
+	height: 42%;
+	
+}
+#nombre{
+	text-align:center;
+	font-family:MV Boli;	
+}
+#user2{
+	position:relative;
+	display: block;
+	width:19%;
+	border: 1px solid black;
+	margin-left: 0.05%;
+	margin-right: 0.05%;
+	margin-top: 0.1%;
+	margin-bottom: 0.1%;
+	float:left;
+	background-color: #0B6DDC;
+}
+#usuario2{
+	position:absolute;
+	border: 1px solid black;
+	top:15%;
+	left: 40%;
+	border-radius:100%;
+	width: 19%;
+	height: 42%;
+	
+}
+#nombre2{
+	text-align:center;	
+	font-family:MV Boli;
+}
+#user3{
+	position:relative;
+	display: block;
+	width:19%;
+	border: 1px solid black;
+	margin-left: 0.05%;
+	margin-right: 0.05%;
+	margin-top: 0.1%;
+	margin-bottom: 0.1%;
+	float:left;
+	background-color: #0B6DDC;
+}
+#usuario3{
+	position:absolute;
+	border: 1px solid black;
+	top:15%;
+	left: 42%;
+	border-radius:100%;
+	width: 18%;
+	height: 40%;
+	
+}
+#nombre3{
+	text-align:center;	
+	font-family:MV Boli;
+}
+#user4{
+	position:relative;
+	display: block;
+	width:19%;
+	border: 1px solid black;
+	margin-left: 0.05%;
+	margin-right: 0.1%;
+	margin-top: 0.1%;
+	margin-bottom: 0.1%;
+	float:left;
+	background-color: #0B6DDC;
+}
+#usuario4{
+	position:absolute;
+	border: 1px solid black;
+	top:15%;
+	left: 40%;
+	border-radius:100%;
+	width: 19%;
+	height: 40%;
+	
+}
+#nombre4{
+	text-align:center;	
+	font-family:MV Boli;
+}
+#user5{
+	position:relative;
+	display: block;
+	width:19%;
+	border: 1px solid black;
+	margin-left: 0.05%;
+	margin-right: 0.05%;
+	margin-top: 0.1%;
+	margin-bottom: 0.1%;
+	float:left;
+	background-color: #0B6DDC;
+}
+#usuario5{
+	position:absolute;
+	border: 1px solid black;
+	top:15%;
+	left: 40%;
+	border-radius:100%;
+	width: 19%;
+	height: 40%;
+	
+}
+#nombre5{
+	text-align:center;	
+	font-family:MV Boli;
+}
+#user6{
+	position:relative;
+	display: block;
+	width:19%;
+	border: 1px solid black;
+	margin-left: 2%;
+	margin-right: 0.05%;
+	margin-top: 0.1%;
+	margin-bottom: 0.1%;
+	float:left;
+	background-color: #0B6DDC;
+}
+#usuario6{
+	position:absolute;
+	border: 1px solid black;
+	top:15%;
+	left: 42%;
+	border-radius:100%;
+	width: 18%;
+	height: 40%;
+	
+}
+#nombre6{
+	text-align:center;	
+	font-family:MV Boli;
+}
+#user7{
+	position:relative;
+	display: block;
+	width:19%;
+	border: 1px solid black;
+	margin-left: 0.05%;
+	margin-right: 0.05%;
+	margin-top: 0.1%;
+	margin-bottom: 0.1%;
+	float:left;
+	background-color: #0B6DDC;
+}
+#usuario7{
+	position:absolute;
+	border: 1px solid black;
+	top:15%;
+	left: 40%;
+	border-radius:100%;
+	width: 19%;
+	height: 40%;
+	
+}
+#nombre7{
+	text-align:center;	
+	font-family:MV Boli;
+}
+#user8{
+	position:relative;
+	display: block;
+	width:19%;
+	border: 1px solid black;
+	margin-left: 0.05%;
+	margin-right: 0.05%;
+	margin-top: 0.1%;
+	margin-bottom: 0.1%;
+	float:left;
+	background-color: #0B6DDC;
+}
+#usuario8{
+	position:absolute;
+	border: 1px solid black;
+	top:15%;
+	left: 42%;
+	border-radius:100%;
+	width: 18%;
+	height: 40%;
+	
+}
+#nombre8{
+	text-align:center;	
+	font-family:MV Boli;
+}
+#user9{
+	position:relative;
+	display: block;
+	width:19%;
+	border: 1px solid black;
+	margin-left: 0.05%;
+	margin-right: 0.05%;
+	margin-top: 0.1%;
+	margin-bottom: 0.1%;
+	float:left;
+	background-color: #0B6DDC;
+}
+#usuario9{
+	position:absolute;
+	border: 1px solid black;
+	top:15%;
+	left: 42%;
+	border-radius:100%;
+	width: 18%;
+	height: 40%;
+	
+}
+#nombre9{
+	text-align:center;	
+	font-family:MV Boli;
+}
+#user10{
+	position:relative;
+	display: block;
+	width:19%;
+	border: 1px solid black;
+	margin-left: 0.05%;
+	margin-right: 0.05%;
+	margin-top: 0.1%;
+	margin-bottom: 0.1%;
+	float:left;
+	background-color: #0B6DDC;
+}
+#usuario10{
+	position:absolute;
+	border: 1px solid black;
+	top:15%;
+	left: 40%;
+	border-radius:100%;
+	width: 19%;
+	height: 40%;
+	
+}
+#nombre10{
+	text-align:center;	
+	font-family:MV Boli;
+}
+#user11{
+	position:relative;
+	display: block;
+	width:19%;
+	border: 1px solid black;
+	margin-left: 2%;
+	margin-right: 0.05%;
+	margin-top: 0.1%;
+	margin-bottom: 0.1%;
+	float:left;
+	background-color: #0B6DDC;
+}
+#usuario11{
+	position:absolute;
+	border: 1px solid black;
+	top:15%;
+	left: 42%;
+	border-radius:100%;
+	width: 19%;
+	height: 40%;
+	
+}
+#nombre11{
+	text-align:center;	
+	font-family:MV Boli;
+}
+#user12{
+	position:relative;
+	display: block;
+	width:19%;
+	border: 1px solid black;
+	margin-left: 0.05%;
+	margin-right: 0.05%;
+	margin-top: 0.1%;
+	margin-bottom: 0.1%;
+	float:left;
+	background-color: #0B6DDC;
+}
+#usuario12{
+	position:absolute;
+	border: 1px solid black;
+	top:15%;
+	left: 40%;
+	border-radius:100%;
+	width: 19%;
+	height: 40%;
+	
+}
+#nombre12{
+	text-align:center;	
+	font-family:MV Boli;
+}
+/*ZONA DE LAS ENTRADAS DE LOS USUARIOS*/
+#entradas{
+	background-color: #2A22BF;	
+	position:absolute;
+	top: 49.5%;
+	height:140%;
+	width:87%;
+	border: 1px solid black;	
+}
+#publicacion{
+	position:relative;
+	display: block;
+	width:32%;
+	height:30%;
+	border: 1px solid black;
+	float:left;
+	background-color: #0BA2FF;
+	margin-right: 0.3%; 
+	margin-left: 0.75%;
+	margin-top: 0.71%;
+}
+#usuarioPublicacion{
+	position:relative;
+	border: 2px solid white;
+	left: 5%;
+	width: 14%;
+	height: 22%;
+}
+#nombrePublicacion{
+	position:relative;
+	left:5%;	
+}
+#horaPublicacion{
+	position:absolute;
+	left:50%;
+}
+#tituloPublicacion{
+	position:relative;
+	left:2%;	
+	
+}
+#textoPublicacion{
+	position:relative;
+	left:2%;	
+
+}
+#seleccion{
+	position: relative;
+	left: 48%;
+	top: 2.5%;
+	font-size: 200%; 
+}
+/*ZONA DE LOS USUARIOS EN LINEA*/
+aside{	
+	position:absolute;
+	display:block;
+	top:21%;
+	right:0;
+	height:168.5%;
+	width:12%;
+	border: 1px solid black;
+	background-color: #2D5BF1;	
+	overflow-y: scroll;
+}
+#Enlinea{
+	display: block;
+	border: 1px solid black;
+	height: 4.5%;
+	background-color: #FF7C00;
+	font-family:MV Boli;
+}
+#activo{
+	position: relative;
+	text-align: center;
+	margin-bottom: 50%;
+}
+#line{
+	position:relative;
+	display: block;
+	width:100%;
+	height:15%;
+	border: 1px solid black;
+	float:left;
+}
+#lineName{
+	position:relative;
+	left: 32%;
+	width: 20%;
+	height: 20%;
+	font-family:MV Boli;
+}
+#linePhoto{
+	position:relative;
+	border: 1px solid black;
+	border-radius:100%;
+	width: 36%;
+	height: 31%;
+	left:28%;	
+}
+/*ZONA DE CONTACTO*/
+footer{
+	display:block;
+	background-color: #FF7C00;
+	position:absolute;
+	color: black;
+	height: 30%;
+	width: 100%;
+	top:190%;
+	}
+	a {
+		text-decoration: none;
+		color: black;
+	}
